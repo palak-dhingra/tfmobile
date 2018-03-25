@@ -1,0 +1,3 @@
+leaf spot disease
+powdery mildew
+blight disease
