@@ -16,6 +16,11 @@
 
 package org.tensorflow.demo;
 
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
 import android.graphics.Canvas;
@@ -26,11 +31,18 @@ import android.media.Image;
 import android.media.Image.Plane;
 import android.media.ImageReader;
 import android.media.ImageReader.OnImageAvailableListener;
+import android.net.Uri;
 import android.os.SystemClock;
 import android.os.Trace;
+import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.ShareCompat;
 import android.util.Size;
 import android.util.TypedValue;
 import android.view.Display;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+
 import java.util.List;
 import java.util.Vector;
 import org.tensorflow.demo.OverlayView.DrawCallback;
@@ -65,6 +77,7 @@ public class ClassifierActivity extends CameraActivity implements OnImageAvailab
   private static final float IMAGE_STD = 128.0f;
   private static final String INPUT_NAME = "Mul:0";
   private static final String OUTPUT_NAME = "final_result";
+
   */
 
   private static final int INPUT_SIZE = 299;
@@ -105,6 +118,7 @@ public class ClassifierActivity extends CameraActivity implements OnImageAvailab
   private BorderedText borderedText;
 
   private long lastProcessingTimeMs;
+
 
   @Override
   protected int getLayoutId() {
@@ -283,4 +297,13 @@ public class ClassifierActivity extends CameraActivity implements OnImageAvailab
       borderedText.drawLines(canvas, 10, canvas.getHeight() - 10, lines);
     }
   }
+  public  void openGallery(View view){
+
+    Intent i =new Intent();
+    i.setAction(Intent.ACTION_MAIN);
+    i.addCategory(Intent.CATEGORY_LAUNCHER);
+    startActivity(i);
+   }
+
+
 }

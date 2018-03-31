@@ -19,6 +19,8 @@ package org.tensorflow.demo;
 import android.Manifest;
 import android.app.Activity;
 import android.app.Fragment;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.media.Image.Plane;
 import android.media.ImageReader.OnImageAvailableListener;
@@ -26,6 +28,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
+import android.preference.PreferenceManager;
 import android.util.Size;
 import android.view.KeyEvent;
 import android.view.WindowManager;
@@ -36,7 +39,7 @@ import org.tensorflow.demo.R;
 
 public abstract class CameraActivity extends Activity implements OnImageAvailableListener {
   private static final Logger LOGGER = new Logger();
-
+  public  static final String MY_PREFS_NAME="MyPrefsFile";
   private static final int PERMISSIONS_REQUEST = 1;
 
   private static final String PERMISSION_CAMERA = Manifest.permission.CAMERA;
@@ -52,6 +55,14 @@ public abstract class CameraActivity extends Activity implements OnImageAvailabl
     LOGGER.d("onCreate " + this);
     super.onCreate(null);
     getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+    String message = getIntent().getStringExtra("cropName");
+    Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
+
+    SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, Context.MODE_PRIVATE).edit();
+
+    editor.putString("key",message);
+  //  editor.putString("cropName",message);
+    editor.apply();
 
     setContentView(R.layout.activity_camera);
 

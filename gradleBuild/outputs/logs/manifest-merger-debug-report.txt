@@ -1,70 +1,170 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:18:1-48:12
-MERGED from [org.tensorflow:tensorflow-android:1.7.0-rc1] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.7.0-rc1.aar\a89c6b1a6ba5b594752b9dc86ed0a2cd\AndroidManifest.xml:2:1-8:12
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:16:1-63:12
+MERGED from [org.tensorflow:tensorflow-android:1.7.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.7.0.aar\9c76e7e183c978e6a524ac7721e52c6f\AndroidManifest.xml:2:1-8:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\0a447a73b32faf396bac16ba70dd592f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta6] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta6.aar\d020c1332d3c9fd53c3a810d806199e8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\3cf52aa832e103f4c0f46b4c07609a5c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\a75507061024b4229f2a25f0545278da\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\b2c62d7de16193b673d42ffa7934b3f5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c3c1529d2802f3f8a66d8fef17661863\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\d9abfce836018fb2eae0029f3743b960\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\19836c55a7e7aa2ffa1179382fc376bf\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\d421195fa9b48c9ba8c32031c0b72545\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f67a9e042ce3b432acc6ec5018253e03\AndroidManifest.xml:17:1-31:12
 	package
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:20:5-34
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:18:5-34
 	xmlns:tools
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:19:5-51
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:17:5-51
 	xmlns:android
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:18:11-69
-uses-permission#android.permission.CAMERA
-ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:22:5-65
-	android:name
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:22:22-62
-uses-feature#android.hardware.camera
-ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:23:5-60
-	android:name
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:23:19-57
-uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:24:5-70
-	android:name
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:24:19-67
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:25:5-80
-	android:name
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:25:22-78
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:16:11-69
 uses-sdk
-ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:27:5-29:41
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\0a447a73b32faf396bac16ba70dd592f\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\0a447a73b32faf396bac16ba70dd592f\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta6] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta6.aar\d020c1332d3c9fd53c3a810d806199e8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta6] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta6.aar\d020c1332d3c9fd53c3a810d806199e8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\3cf52aa832e103f4c0f46b4c07609a5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\3cf52aa832e103f4c0f46b4c07609a5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\a75507061024b4229f2a25f0545278da\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\a75507061024b4229f2a25f0545278da\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\b2c62d7de16193b673d42ffa7934b3f5\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\b2c62d7de16193b673d42ffa7934b3f5\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c3c1529d2802f3f8a66d8fef17661863\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c3c1529d2802f3f8a66d8fef17661863\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\d9abfce836018fb2eae0029f3743b960\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\d9abfce836018fb2eae0029f3743b960\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\19836c55a7e7aa2ffa1179382fc376bf\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\19836c55a7e7aa2ffa1179382fc376bf\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\d421195fa9b48c9ba8c32031c0b72545\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\d421195fa9b48c9ba8c32031c0b72545\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f67a9e042ce3b432acc6ec5018253e03\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f67a9e042ce3b432acc6ec5018253e03\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\0a447a73b32faf396bac16ba70dd592f\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:29:9-38
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:22:9-38
 	android:minSdkVersion
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:28:9-35
-application
-ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:31:5-46:19
-MERGED from [org.tensorflow:tensorflow-android:1.7.0-rc1] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.7.0-rc1.aar\a89c6b1a6ba5b594752b9dc86ed0a2cd\AndroidManifest.xml:5:5-6:19
-MERGED from [org.tensorflow:tensorflow-android:1.7.0-rc1] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.7.0-rc1.aar\a89c6b1a6ba5b594752b9dc86ed0a2cd\AndroidManifest.xml:5:5-6:19
-	android:label
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:33:9-41
-	android:debuggable
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:32:9-34
-	tools:ignore
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:36:9-42
-	android:icon
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:34:9-45
-	android:allowBackup
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:31:18-44
-	android:theme
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:35:9-45
-activity#org.tensorflow.demo.ClassifierActivity
-ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:38:9-45:20
-	android:screenOrientation
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:39:19-55
-	android:label
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:40:19-71
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:21:9-35
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:24:5-65
 	android:name
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:38:19-72
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:41:13-44:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:42:17-69
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:24:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:26:5-60
 	android:name
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:42:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:43:17-77
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:26:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:27:5-70
 	android:name
-		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:43:27-74
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:27:19-67
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:29:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:18:1-48:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:30:5-75
+	android:name
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:30:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:18:1-48:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:31:5-80
+	android:name
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:31:22-77
+application
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:33:5-61:19
+MERGED from [org.tensorflow:tensorflow-android:1.7.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.7.0.aar\9c76e7e183c978e6a524ac7721e52c6f\AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.7.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.7.0.aar\9c76e7e183c978e6a524ac7721e52c6f\AndroidManifest.xml:5:5-6:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\0a447a73b32faf396bac16ba70dd592f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\0a447a73b32faf396bac16ba70dd592f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta6] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta6.aar\d020c1332d3c9fd53c3a810d806199e8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta6] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0-beta6.aar\d020c1332d3c9fd53c3a810d806199e8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\3cf52aa832e103f4c0f46b4c07609a5c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\3cf52aa832e103f4c0f46b4c07609a5c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\a75507061024b4229f2a25f0545278da\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\a75507061024b4229f2a25f0545278da\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\b2c62d7de16193b673d42ffa7934b3f5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\b2c62d7de16193b673d42ffa7934b3f5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c3c1529d2802f3f8a66d8fef17661863\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c3c1529d2802f3f8a66d8fef17661863\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\d9abfce836018fb2eae0029f3743b960\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\d9abfce836018fb2eae0029f3743b960\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\19836c55a7e7aa2ffa1179382fc376bf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\19836c55a7e7aa2ffa1179382fc376bf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\d421195fa9b48c9ba8c32031c0b72545\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\d421195fa9b48c9ba8c32031c0b72545\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f67a9e042ce3b432acc6ec5018253e03\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f67a9e042ce3b432acc6ec5018253e03\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:37:9-41
+	android:debuggable
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:35:9-34
+	tools:ignore
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:40:9-42
+	android:icon
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:36:9-49
+	android:allowBackup
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:34:9-35
+	android:theme
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:38:9-45
+activity#org.tensorflow.demo.ClassifierActivity
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:41:9-56:20
+	android:screenOrientation
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:44:13-49
+	android:label
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:43:13-65
+	android:name
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:42:13-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+com.google.android.apps.docs=Googledrive
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:45:13-49:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:46:25-66
+action#com.google.android.apps.docs=Googledrive
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:47:17-90
+	android:name
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:47:25-80
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:48:27-74
+intent-filter#android.intent.category.DEFAULT+org.tensorflow.demo.ClassifierActivity
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:51:13-55:29
+action#org.tensorflow.demo.ClassifierActivity
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:52:17-81
+	android:name
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:52:25-78
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:54:17-76
+	android:name
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:54:27-73
+activity#org.tensorflow.demo.PreventionActivity
+ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:57:9-60:20
+	android:label
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:59:13-51
+	android:theme
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:58:13-44
+	android:name
+		ADDED from C:\Users\PALAK DHINGRA\agro-inc\android\tfmobile\AndroidManifest.xml:57:19-53
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\0a447a73b32faf396bac16ba70dd592f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\3cf52aa832e103f4c0f46b4c07609a5c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\3cf52aa832e103f4c0f46b4c07609a5c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\a75507061024b4229f2a25f0545278da\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\a75507061024b4229f2a25f0545278da\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\b2c62d7de16193b673d42ffa7934b3f5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\b2c62d7de16193b673d42ffa7934b3f5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c3c1529d2802f3f8a66d8fef17661863\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c3c1529d2802f3f8a66d8fef17661863\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\d9abfce836018fb2eae0029f3743b960\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\d9abfce836018fb2eae0029f3743b960\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\19836c55a7e7aa2ffa1179382fc376bf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\19836c55a7e7aa2ffa1179382fc376bf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\d421195fa9b48c9ba8c32031c0b72545\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\d421195fa9b48c9ba8c32031c0b72545\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f67a9e042ce3b432acc6ec5018253e03\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f67a9e042ce3b432acc6ec5018253e03\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\0a447a73b32faf396bac16ba70dd592f\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\PALAK DHINGRA\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\0a447a73b32faf396bac16ba70dd592f\AndroidManifest.xml:27:13-51

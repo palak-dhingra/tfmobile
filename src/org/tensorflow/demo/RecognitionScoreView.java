@@ -16,15 +16,21 @@ limitations under the License.
 package org.tensorflow.demo;
 
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import org.tensorflow.demo.Classifier.Recognition;
 
 import java.util.List;
+
+import static java.lang.Boolean.TRUE;
 
 public class RecognitionScoreView extends View implements ResultsView {
   private static final float TEXT_SIZE_DIP = 24;
@@ -32,7 +38,6 @@ public class RecognitionScoreView extends View implements ResultsView {
   private final float textSizePx;
   private final Paint fgPaint;
   private final Paint bgPaint;
-
   public RecognitionScoreView(final Context context, final AttributeSet set) {
     super(context, set);
 
@@ -51,7 +56,6 @@ public class RecognitionScoreView extends View implements ResultsView {
     this.results = results;
     postInvalidate();
   }
-
   @Override
   public void onDraw(final Canvas canvas) {
     final int x = 10;
@@ -61,9 +65,20 @@ public class RecognitionScoreView extends View implements ResultsView {
 
     if (results != null) {
       for (final Recognition recog : results) {
-        canvas.drawText(recog.getTitle() + ": " + recog.getConfidence(), x, y, fgPaint);
-        y += fgPaint.getTextSize() * 1.5f;
+
+          canvas.drawText(recog.getTitle() + ": " + recog.getConfidence(), x, y, fgPaint);
+          final String title = recog.getTitle();
+          y += fgPaint.getTextSize() * 1.5f;
+        if(recog.getConfidence()>0.60) {
+
+          Intent i = new Intent(this.getContext(),PreventionActivity.class);
+          i.putExtra("disease",title);
+          this.getContext().startActivity(i);
+        }
       }
+
     }
+
   }
+
 }
